@@ -17,5 +17,15 @@ public class InstanceLamda {
 		
 		a.method();
 		a2.method();
+		
+		//============================
+		System.out.println("================");
+		Atest atest =(b,k)->b.bcd(k);
+		Atest atest2 =Bobject2::bcd; 
+		
+		atest.abc(new Bobject2(), 1000);
+		atest2.abc(new Bobject2(), 25000);
+		
+		System.out.println("The End");
 	}
 }

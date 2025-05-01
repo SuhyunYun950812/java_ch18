@@ -3,7 +3,6 @@ package kh.lamda;
 public class Bobject {
 	//변수
 	
-	
 	//생성자
 	
 	//함수(인메함,정메함)
