@@ -11,7 +11,7 @@ public class FunctionMain {
 		int length = func.apply(name);
 		
 		System.out.printf("%s님의 리턴 된 문자열의 길이는 %d입니다.\n",name,length);
-		ㄴ
+		
 		System.out.println("The End");
 	}
 
